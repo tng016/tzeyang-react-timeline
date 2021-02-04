@@ -1,0 +1,16 @@
+.Event {
+  border-radius: 10px;
+  width: 90%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: left;
+  background-color: white;
+  position: relative;
+  bottom: 20px;
+}
+
+.Subtitle {
+  margin: 0px;
+  color: #ccc;
+}

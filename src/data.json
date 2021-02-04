@@ -1,0 +1,64 @@
+{
+  "timeline": [
+    {
+      "timestamp": 1544301180000,
+      "level": "info",
+      "title": "User Login Event",
+      "summary": "Renee West (renee.west@lamronba.com) logged into her devices from San Francisco"
+    },
+    {
+      "timestamp": 1544306461000,
+      "title": "User Login Event",
+      "summary": "Renee West (renee.west@lamronba.com) logged into her devices from Hong Kong"
+    },
+    {
+      "timestamp": 1544306460000,
+      "level": "warning",
+      "title": "Risk Event: Impossible Travel to Atypical Locations",
+      "subtitle": "O365 Risk Event",
+      "summary": "Renee West (renee.west@lamronba.com) logged into her devices from Hong Kong",
+      "alert": "Renee West was briefly logged in from both San Francisco and Hong Kong within hours of each instance, which is unusual"
+    },
+    {
+      "timestamp": 1544307121000,
+      "level": "critical",
+      "title": "Mail Rule Change",
+      "label": "Trigger Event",
+      "summary": "Renee West (renee.west@lamronba.com) created a mail rule to move messages from Zachary Newton (zachary.newton@lamronba.com) and Josh Waters (josh.waters@lamronba.com) to Junk Folder ",
+      "alert": "Renee West has never previously created rules to move messages from Accounts Payable. Attackers frequently use such Mail Rules to conceal activity from the account's true owner"
+    },
+    {
+      "timestamp": 1544307120000,
+      "level": "critical",
+      "title": "Alert: Possible Email Account Compromise",
+      "label": "Abnormal Alert",
+      "summary": "Abnormal believes that Renee West (renee.west@lamronba.com)'s email account is potentially compromised. Abnormal has alerted soc@company.com",
+      "tags": [
+        { "text": "Suspicious Mail Rule Change", "level": "critical" },
+        { "text": "Too-Fast-To-Travel Login", "level": "warning" },
+        { "text": "Suspicious Email Content", "level": "critical" }
+      ]
+    },
+    {
+      "timestamp": 1544309161000,
+      "level": "warning",
+      "title": "Email Correspondence",
+      "summary": "Renee West (renee.west@lamronba.com) send an email to Zachary Newton (zachary.newton@lamronba.com) and Josh Waters (josh.waters@lamronba.com) titled 'Orion Limited Invoice'. This email was removed from Renee's mailbox by the suspicious mail rule",
+      "alert": "'Orion Limited Invoice' contains sensitive financial information. It's unusual for correspondence with financial invoices to be removed from employee mailboxes by mail rules"
+    },
+    {
+      "timestamp": 1544372400000,
+      "level": "warning",
+      "title": "User Login Event",
+      "subtitle": "O365 Logging API",
+      "summary": "Renee West (renee.west@lamronba.com) logged into her devices from Hong Kong."
+    },
+    {
+      "timestamp": 1544372500000,
+      "level": "warning",
+      "title": "User Login Event",
+      "subtitle": "O365 Logging API",
+      "summary": "Renee West (renee.west@lamronba.com) logged into her devices from Hong Kong."
+    }
+  ]
+}

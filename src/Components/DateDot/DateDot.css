@@ -1,0 +1,8 @@
+.DateDot {
+  border-radius: 10px;
+  padding: 7px;
+  text-align: center;
+  color: black;
+  border: 1px solid grey;
+  background-color: #ccc;
+}

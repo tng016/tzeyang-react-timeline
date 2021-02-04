@@ -1,0 +1,15 @@
+.TagCritical {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: pink;
+  color: red;
+}
+
+.TagWarning {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: orange;
+  color: red;
+}

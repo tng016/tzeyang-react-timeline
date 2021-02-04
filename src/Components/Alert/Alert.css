@@ -1,0 +1,10 @@
+.Alert {
+  border-radius: 7px;
+  width: 100%;
+  border: 1px solid red;
+  padding: 7px;
+  background-color: pink;
+  text-align: justify;
+  line-height: 150%;
+  color: red;
+}
